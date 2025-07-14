@@ -1,0 +1,49 @@
+$light-bg: #f9f9f9;
+$dark-bg: #1c1c1c;
+$light-text: #1c1c1c;
+$dark-text: #f9f9f9;
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $light-bg;
+  color: $light-text;
+  transition: all 0.3s ease;
+}
+
+body.dark {
+  background-color: $dark-bg;
+  color: $dark-text;
+}
+
+#app {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.search {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#weather {
+  margin-top: 1rem;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 1rem;
+}
